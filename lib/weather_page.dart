@@ -57,6 +57,8 @@ class _WeatherPageState extends State<WeatherPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.cyan[50],
+      appBar:
+          AppBar(title: Text("MY WEATHER"), surfaceTintColor: Colors.cyan[100]),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
